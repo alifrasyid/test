@@ -1,0 +1,79 @@
+@import "node_modules/bootstrap/scss/forms";
+
+
+body{
+    background-color: #DCD0FF;
+}
+
+.gambar{
+    background: url(/Image/HealthSIs-removebg-preview.png);
+    background-position-y: -85px;
+    background-position-x: 32px;
+    width: 700px; height: 200px;    
+}
+
+
+.Main {
+    background-color: #f0c0ff;
+    width: 335px; height: 285px;
+    border-radius: 5px;
+    margin: 250px auto;
+    opacity: 50%;
+    box-shadow: 2px 2px 30px 10px gray;
+}
+
+h1{
+    padding-top: 25px; padding-bottom: 20px;
+    color: #000000;
+}
+
+.form-text{
+    color: #000000;
+}
+
+.btn{
+    background-color: #ee82ee;
+    color: purple;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.text-box{
+    border: none;
+    padding: 5px;
+    border-bottom: solid 3px #ddd;
+    width: 250px;
+}
+
+.text-box:focus{
+    outline: none;
+    border-color: #00ffff;
+}
+
+.text-box:hover{
+    border-color: #00ffff;
+    transition: all 300ms;
+}
+
+#FN-id, #LN-id{
+    width: 200px;
+}
+
+.form-control{
+    background-color: #ffffff;
+}
+
+.form-control:focus{
+    outline: black;
+    border-color: black;
+    box-shadow: none;
+    background-color: #ffffff;
+}
+
+.form-control:focus::placeholder{
+    color: black;
+}
+

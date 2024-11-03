@@ -1,0 +1,20 @@
+.p-2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.NavBar{
+    background-color: #862256;
+}
+
+.col{
+    background-color: #862256;
+}
+
+.p-2:hover{
+    background-color: #4a47478e ;
+}

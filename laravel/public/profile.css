@@ -1,0 +1,38 @@
+/* style.css */
+@import "node_modules/bootstrap/scss/forms";
+
+
+.sidebar-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.sidebar-content img {
+    width: 200px;
+    height: 200px;
+}
+
+#open-sidebar {
+    position: absolute;
+    top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+}
+
+.container-shifted {
+    margin-left: 200px; 
+    transition: 0.5s; 
+}
+
+.sidebar-content p {
+    margin-bottom: 50px; 
+    color: white;
+    font-size: 20px;
+}
+
+#gambar:hover{
+    background-color: #4a47478e ;
+}
