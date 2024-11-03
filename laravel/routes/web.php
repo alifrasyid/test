@@ -49,6 +49,8 @@ Route::post('/store', [HealthSisController::class, 'store']);
 Route::put('/HealthSis/{id}/update', [HealthSisController::class, 'update']);
 Route::get('/HealthSis/{id}/edit', [HealthSisController::class, 'edit']);
 Route::delete('/HealthSis/{id}/delete', [HealthSisController::class, 'delete']);
+Route::post('/change-password/{id}', [HealthSisController::class, 'changePassword']);
+
 //Timeline
 Route::get('/timeline', [PostController::class, 'index'])->name('post.index');
 Route::get('/timeline/{id}/create-timeline', [PostController::class, 'create'])->name('post.create');
